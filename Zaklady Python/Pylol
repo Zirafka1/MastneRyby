@@ -1,0 +1,53 @@
+x = float(input("První číslo zadej:"))
+
+x = x*3
+print("výsledek první operace", x)
+x = x/2 + 1
+print("výsledek druhé operace", x)
+x = x**2
+print("třetí výsledek", x)
+
+
+
+
+v = 250
+silnice = dalnice
+
+if v > 130:
+    print("Rychlost je větší než povolený limit")
+elif v <=50:
+    print("povolená rychlost")
+elif v < 90:   
+    if silnice == "mimoobec":
+        print("povolená rychlost")
+    elif silnice == "dalnice":
+        print("povolená rychlost")
+elif v > 90:
+    if silnice == "dalnice":
+        print("povolená rychlost")
+    else:
+        print("Nepovolená rychlost")
+
+
+pozice_auta = "vobci"
+rychlost = 49
+
+if pozice_auta == "dalnice":
+    if rychlost > 130:
+        print("porusujes zakon")
+    elif rychlost < 80:
+        print("porusujes zakon")
+    else: print("vpoho")
+
+elif pozice_auta == "mimoobec":
+    if rychlost > 90:
+        print("porusujes zakon")
+    elif rychlost < 30:
+        print("porusujes zakon")
+    else: print("vpoho")
+
+elif pozice_auta == "vobci":
+    if rychlost > 50:
+        print("porusujes zakon")
+    else: print("vpoho")
+
