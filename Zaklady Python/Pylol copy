@@ -11,7 +11,7 @@ print("třetí výsledek", x)
 
 
 v = 250
-silnice = dalnice
+silnice = "dalnice"
 
 if v > 130:
     print("Rychlost je větší než povolený limit")
@@ -50,5 +50,3 @@ elif pozice_auta == "vobci":
     if rychlost > 50:
         print("porusujes zakon")
     else: print("vpoho")
-
-
